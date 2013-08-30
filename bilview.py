@@ -3,7 +3,14 @@
 # Written By Gagan Sharma :
 # August 10th 2013, Department of Radiology, The University of Melbourne
 # Australia
+
+# To Do, add slider to view Perfusion data in a more scientific way.
+
 #***********************************************************************
+
+
+
+
 """
 Read DICOM Images and open it in a viewer.
 
@@ -19,12 +26,10 @@ import dicom
 import os
 import sys
 
-
 # check command line arguments make sense
 if not 1 < len(sys.argv) < 4:
     print(__doc__)
     sys.exit()
-
 
 app = QtGui.QApplication([])
 
